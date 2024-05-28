@@ -1,0 +1,270 @@
+{
+  "id": "bb5f933f-187b-4caf-aa08-b7d14d080082",
+  "version": "2.0",
+  "name": "CT06Cadastrodecompromisso",
+  "url": "https://teste.areacentral.com.br",
+  "tests": [{
+    "id": "dbbd97b3-77ac-42b3-a512-f64a199e70f5",
+    "name": "CT06Cadastrodecompromisso",
+    "commands": [{
+      "id": "5c05049b-35f6-4b1f-a113-7605a568d9fd",
+      "comment": "",
+      "command": "open",
+      "target": "/sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b84bc7d-1098-4ed4-88cc-cab9906aa7a2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03cf73ac-4e99-4f8c-867b-d8d50537349b",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4463b34a-ee85-499a-84b0-5e9231f50e96",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d690e2b1-8b76-4e9e-b732-c61710ebd4f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "financeiro.redeoeste"
+    }, {
+      "id": "5b25c70a-8c43-4893-b849-30e51bdd6554",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55fc155d-95ca-450d-afce-02a3a32cde3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ac@123456"
+    }, {
+      "id": "672f9169-dd07-470f-ad23-652d1e327828",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3175165e-cdfb-4d4c-bdd9-bd20a0b4b17a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-entrar",
+      "targets": [
+        ["id=btn-entrar", "id"],
+        ["css=#btn-entrar", "css:finder"],
+        ["xpath=//button[@id='btn-entrar']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68aa1b1-c155-4e10-bee2-ba25eb2dcbbf",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d03370e-c725-40f4-b9a8-8aefed158821",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-tab:nth-child(5) .nav-tab-title",
+      "targets": [
+        ["css=.nav-tab:nth-child(5) .nav-tab-title", "css:finder"],
+        ["xpath=//div[@id='cadastro']/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Agenda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7905a48b-cb46-425d-9b02-f917fcda333f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "453fd167-5c32-4b24-8e0c-2e633171550e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) .submenu-item-label",
+      "targets": [
+        ["css=li:nth-child(3) .submenu-item-label", "css:finder"],
+        ["xpath=//div[@id='conteudo']/ul/li[3]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94d26bef-e8b9-4a7b-95ce-cccf022540df",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed87b9fc-00db-4e1a-9974-acb6092ea500",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "e877156b-148d-4f1c-b34b-4afcedbafa64",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-alterar",
+      "targets": [
+        ["id=btn-alterar", "id"],
+        ["css=#btn-alterar", "css:finder"],
+        ["xpath=//input[@id='btn-alterar']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/form/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d5833c5-8484-4d13-98b3-234a16f7f84f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "898f927c-ad81-4de3-84dd-de81686ca5c6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.msgbox-wrapper",
+      "targets": [
+        ["css=.msgbox-wrapper", "css:finder"],
+        ["xpath=//body[@id='janela']/div[7]/div", "xpath:idRelative"],
+        ["xpath=//body/div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c12ab92e-54c2-46a5-9f88-fa6b26ebb4e6",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09359429-0974-4731-a7d7-4578aeb7e196",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(1)",
+      "targets": [
+        ["css=.btn-success:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='janela']/div[6]/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34cf34c4-296b-43d6-962b-763de124226f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45ceb3bf-2cfd-4374-b56a-895ab1a8b8f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.row:nth-child(1) > .col-sm-12 .form-control", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/form/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Compromisso Teste"
+    }, {
+      "id": "89ace541-5479-4c5a-8d17-d9a1a2a97215",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4456609f-032f-45e3-b17c-2f849d5ca8b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-alterar",
+      "targets": [
+        ["id=btn-alterar", "id"],
+        ["css=#btn-alterar", "css:finder"],
+        ["xpath=//input[@id='btn-alterar']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/form/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab81fb2e-e1ad-4df6-8bc5-427762ac8e0a",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4b69b872-ce61-4114-8e3e-3a65b7ec7364",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbbd97b3-77ac-42b3-a512-f64a199e70f5"]
+  }],
+  "urls": ["https://teste.areacentral.com.br/"],
+  "plugins": []
+}

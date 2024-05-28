@@ -1,0 +1,289 @@
+{
+  "id": "141f6cb2-fbce-4ce2-a28a-9e93778cedda",
+  "version": "2.0",
+  "name": "CT04Cadastrodeclassificado",
+  "url": "https://teste.areacentral.com.br",
+  "tests": [{
+    "id": "78bef937-177d-48bd-851c-7fd12686d8ea",
+    "name": "CT04Cadastrodeclassificado",
+    "commands": [{
+      "id": "3dbc5396-6372-44eb-a8df-2d7d7d759339",
+      "comment": "",
+      "command": "open",
+      "target": "/sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d4d3f48-8a9b-4720-bb89-a5ff754dfbe2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b96f7dad-0ac1-402f-a712-a53fd6e087b1",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76f62dc9-040c-4e17-ad70-74b497833d85",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e214a98-ffef-4535-8a03-5e663b46c011",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "financeiro.redeoeste"
+    }, {
+      "id": "175ce66c-d9de-471d-b6d4-3a8224b3f75c",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d973f82-da06-4e1b-bec3-95bc62f2344e",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ac@123456"
+    }, {
+      "id": "00931fe6-0052-46f6-8ce7-39a7570cc2f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-entrar",
+      "targets": [
+        ["id=btn-entrar", "id"],
+        ["css=#btn-entrar", "css:finder"],
+        ["xpath=//button[@id='btn-entrar']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "370edcfe-e270-46e8-a295-cbf5be7cf8e5",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f8355ff-968d-43a8-aa20-9c1cdd619a25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Classificados",
+      "targets": [
+        ["linkText=Classificados", "linkText"],
+        ["css=.main-nav-tabs > .nav-tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='cadastro']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?pg=administrador_principal&modulo=publicacao&acao=lista-classificados')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f14b75f2-37b2-4cda-a2cb-31bbb6c413fb",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d6c0b5b-aec3-4db3-baa5-cb69468418cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-modal-selecione-grupo",
+      "targets": [
+        ["css=.btn-modal-selecione-grupo", "css:finder"],
+        ["xpath=//div[@id='ac-classificados-tab']/div[13]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar Classificado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb25ce40-a9ca-4dad-978b-853dfc771066",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03ff0eb6-df23-45f5-b039-5d4b127e45d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(2) .ac-fake-radio",
+      "targets": [
+        ["css=.radio:nth-child(2) .ac-fake-radio", "css:finder"],
+        ["xpath=//div[@id='ac-modal-selecione-grupo']/div[2]/div/div/div[2]/ul/li/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9639a450-6c5b-4706-aded-da5ed0b548c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ac-modal-selecione-grupo-continuar",
+      "targets": [
+        ["id=ac-modal-selecione-grupo-continuar", "id"],
+        ["css=#ac-modal-selecione-grupo-continuar", "css:finder"],
+        ["xpath=//button[@id='ac-modal-selecione-grupo-continuar']", "xpath:attributes"],
+        ["xpath=//div[@id='ac-modal-selecione-grupo']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86da2cf8-56a9-46c5-875b-c6f8ad6affa7",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24d87173-14a3-4091-87fa-f1dd27969429",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-submit-publicacao",
+      "targets": [
+        ["id=btn-submit-publicacao", "id"],
+        ["css=#btn-submit-publicacao", "css:finder"],
+        ["xpath=//button[@id='btn-submit-publicacao']", "xpath:attributes"],
+        ["xpath=//div[@id='ac-modal-criar-publicacao']/div/div/form/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Publicar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b84957-0ba5-4d8e-9279-c73977c0d1e5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.msgbox-wrapper",
+      "targets": [
+        ["css=.msgbox-wrapper", "css:finder"],
+        ["xpath=//body[@id='index']/div[15]/div", "xpath:idRelative"],
+        ["xpath=//div[15]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f385ee8-16ef-46cf-99ef-15ca71fee35d",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e86e1bd-ef08-4506-8f95-9aab0c146250",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='index']/div[14]/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//div[14]/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b820b91-9efe-478f-8f6e-6641505eff62",
+      "comment": "",
+      "command": "click",
+      "target": "id=criar-publicacao-titulo",
+      "targets": [
+        ["id=criar-publicacao-titulo", "id"],
+        ["name=criar-publicacao-titulo", "name"],
+        ["css=#criar-publicacao-titulo", "css:finder"],
+        ["xpath=//input[@id='criar-publicacao-titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='ac-modal-criar-publicacao']/div/div/form/div[2]/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbdbc694-736b-4f00-b502-6d6868af453f",
+      "comment": "",
+      "command": "type",
+      "target": "id=criar-publicacao-titulo",
+      "targets": [
+        ["id=criar-publicacao-titulo", "id"],
+        ["name=criar-publicacao-titulo", "name"],
+        ["css=#criar-publicacao-titulo", "css:finder"],
+        ["xpath=//input[@id='criar-publicacao-titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='ac-modal-criar-publicacao']/div/div/form/div[2]/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Teste Classificado"
+    }, {
+      "id": "97e09a9b-9d63-468a-83b7-35d49a299d34",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "657736f6-008a-4232-b64e-3d2253e513dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-submit-publicacao > span",
+      "targets": [
+        ["css=#btn-submit-publicacao > span", "css:finder"],
+        ["xpath=//button[@id='btn-submit-publicacao']/span", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Publicar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5388dd9-a870-448a-9d49-9795e702ef0e",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0e9d053f-4034-4fdb-95f5-ddcd2220396f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["78bef937-177d-48bd-851c-7fd12686d8ea"]
+  }],
+  "urls": ["https://teste.areacentral.com.br/"],
+  "plugins": []
+}

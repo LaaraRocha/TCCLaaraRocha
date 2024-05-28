@@ -1,0 +1,342 @@
+{
+  "id": "c25c6207-f103-4c88-a3ed-ede815d15199",
+  "version": "2.0",
+  "name": "CT07Pontosdousuario",
+  "url": "https://teste.areacentral.com.br",
+  "tests": [{
+    "id": "62fad316-0f0b-4d04-8f15-c8143595ef3b",
+    "name": "CT07Pontosdousuario",
+    "commands": [{
+      "id": "2a6b80f1-e16f-4df6-956a-dba1e061a0cb",
+      "comment": "",
+      "command": "open",
+      "target": "/sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f682225c-90c1-4f9d-87ab-9f52c9b7fc11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b69fd7c-9697-4f2a-a5ca-07f99018e248",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9d23ba5-46e1-4396-a771-3a81f17fb853",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a49ef4b-62cf-4d1f-b578-bced180a7638",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_APELIDO",
+      "targets": [
+        ["id=USR_APELIDO", "id"],
+        ["name=USR_APELIDO", "name"],
+        ["css=#USR_APELIDO", "css:finder"],
+        ["xpath=//input[@id='USR_APELIDO']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "financeiro.redeoeste"
+    }, {
+      "id": "2ba3de62-035c-4d9c-8a91-857f133aca16",
+      "comment": "",
+      "command": "click",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a608f67-e15c-4bff-b223-f6044b9bb610",
+      "comment": "",
+      "command": "type",
+      "target": "id=USR_SENHA",
+      "targets": [
+        ["id=USR_SENHA", "id"],
+        ["name=USR_SENHA", "name"],
+        ["css=#USR_SENHA", "css:finder"],
+        ["xpath=//input[@id='USR_SENHA']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ac@123456"
+    }, {
+      "id": "2d312f5a-ed4d-4125-9cde-f19b6393612e",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8df6f2c7-bf77-4b34-b5c7-d7a6c665823d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-entrar > span",
+      "targets": [
+        ["css=#btn-entrar > span", "css:finder"],
+        ["xpath=//button[@id='btn-entrar']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2cdaaa-66bd-457d-a54b-0be8eb7b32f6",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "466f9281-f053-426b-b969-79fdd3ddee77",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Ver Todas as Pontuações",
+      "targets": [
+        ["linkText=Ver Todas as Pontuações", "linkText"],
+        ["css=.rounded-0:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ver Todas as Pontuações')]", "xpath:link"],
+        ["xpath=//div[@id='ac-feed-tab']/div/div[3]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?pg=administrador_participacao_usuario')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ver Todas as Pontuações')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03119004-7006-4b34-b439-572fd7663dd8",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "706a042e-f205-49cf-9022-ec616854119b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ver Todas as Pontuações",
+      "targets": [
+        ["linkText=Ver Todas as Pontuações", "linkText"],
+        ["css=.rounded-0:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ver Todas as Pontuações')]", "xpath:link"],
+        ["xpath=//div[@id='ac-feed-tab']/div/div[3]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?pg=administrador_participacao_usuario')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ver Todas as Pontuações')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37aa3b19-85d8-4dfb-ad16-d8934f549bca",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2dfccd8-04b5-4a33-8691-03a3fcd5bb9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .dropdown",
+      "targets": [
+        ["css=tr:nth-child(2) .dropdown", "css:finder"],
+        ["xpath=//div[@id='cadastro']/div[2]/div[2]/div/table/tbody/tr[2]/td[7]/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f091bb2b-e840-4a66-bca0-ad6f2cade3cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adicionar pontos",
+      "targets": [
+        ["linkText=Adicionar pontos", "linkText"],
+        ["css=.active > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Adicionar pontos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='cadastro']/div[2]/div[2]/div/table/tbody/tr[2]/td[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?pg=administrador_participacao_adicionar&usuario=8')]", "xpath:href"],
+        ["xpath=//tr[2]/td[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e738f9-a2ac-4a15-b1af-ced1b4ed4ae3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c061413a-8879-44c5-bd3b-ca767bf2d0d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='acao_adicionar_pontuacao'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "164e2838-78bd-4575-a18b-3db478f8a09d",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bca6b4b-5e52-4f67-b6ba-85f9841ce334",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.msgbox-wrapper",
+      "targets": [
+        ["css=.msgbox-wrapper", "css:finder"],
+        ["xpath=//body[@id='index']/div[14]/div", "xpath:idRelative"],
+        ["xpath=//div[14]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5cfe80d-166a-4ba7-b26a-6d4158e6836f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f12ab6-f234-4e0e-b38e-18e48a5331d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(1)",
+      "targets": [
+        ["css=.btn-success:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='index']/div[13]/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46c83cd0-55c0-467d-993d-935d0af3381e",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14b46cdc-dace-4a38-8a6f-eb52d3168dbc",
+      "comment": "",
+      "command": "click",
+      "target": "name=observacao",
+      "targets": [
+        ["name=observacao", "name"],
+        ["css=.box > div:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='observacao']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "429a7811-7b31-4acd-b092-bfbe47ad14b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=observacao",
+      "targets": [
+        ["name=observacao", "name"],
+        ["css=.box > div:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='observacao']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Adicionar pontos"
+    }, {
+      "id": "d16a071f-b927-4fd0-a496-edbc9813a620",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e06b2e1-e1c4-4332-9b48-066efe419984",
+      "comment": "",
+      "command": "click",
+      "target": "name=pontuacao",
+      "targets": [
+        ["name=pontuacao", "name"],
+        ["css=.numero", "css:finder"],
+        ["xpath=//input[@name='pontuacao']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[2]/div/div[3]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fd93137-7568-437d-b856-a35d61ad3528",
+      "comment": "",
+      "command": "type",
+      "target": "name=pontuacao",
+      "targets": [
+        ["name=pontuacao", "name"],
+        ["css=.numero", "css:finder"],
+        ["xpath=//input[@name='pontuacao']", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[2]/div/div[3]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "4af9ad7e-b68e-4227-94e7-80303b586d67",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7242497-8b88-4294-aab7-311f37e82304",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='acao_adicionar_pontuacao'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='cadastro']/div/form/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ee98e9-bde5-42ed-9c84-c083d84bdbca",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c725039a-c4d1-4a59-be1a-eab40ee43c8d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62fad316-0f0b-4d04-8f15-c8143595ef3b"]
+  }],
+  "urls": ["https://teste.areacentral.com.br/"],
+  "plugins": []
+}
